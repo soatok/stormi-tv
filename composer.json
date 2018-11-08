@@ -3,7 +3,7 @@
     "description": "The website behind stormi.tv",
     "keywords": ["furry", "furries", "stormi", "stormifolf"],
     "homepage": "http://github.com/soatok/stormi-tv",
-    "license": "MIT",
+    "license": "ISC",
     "authors": [
         {
             "name": "Soatok Dreamseeker",
@@ -32,6 +32,11 @@
     "autoload": {
         "psr-4": {
             "Soatok\\StormiTV\\": "src/StormiTV/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
         }
     },
     "config": {
